@@ -102,14 +102,16 @@ export default function HeroUI() {
               <br />
               Built for Smarter Execution.
             </h1>
-            <Button
-              className="rounded-none py-0 pr-0 font-normal text-lg bg-brand text-white hover:bg-brand/90"
+            <a
+              href="/Product"
+              className="inline-flex items-center rounded-none py-0 pr-0 font-normal text-lg bg-brand text-white hover:bg-brand/90"
+              aria-label="View TorvionX product page"
             >
-              TorvionX
+              <span className="px-4">TorvionX</span>
               <span className="border-white/30 border-l p-3">
                 <ArrowRight />
               </span>
-            </Button>
+            </a>
           </div>
 
           {/* Right — italic description */}

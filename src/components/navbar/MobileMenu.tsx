@@ -105,13 +105,14 @@ export function MobileMenu({ open, onClose, items, activeId }: MobileMenuProps) 
               <div className="my-6 h-px bg-ink/10" />
 
               <div className="flex flex-col gap-3 px-2 pb-6">
-                <button
-                  onClick={onClose}
-                  className="h-12 w-full rounded-full bg-brand text-base text-white shadow-lg shadow-brand/25 transition-transform hover:scale-[1.02] hover:bg-[#E85F14]"
+                <a
+                  onClick={() => onClose()}
+                  href="/Product"
+                  className="h-12 w-full inline-flex items-center justify-center rounded-full bg-brand text-base text-white shadow-lg shadow-brand/25 transition-transform hover:scale-[1.02] hover:bg-[#E85F14]"
                   style={{ fontFamily: "var(--font-sans)", fontWeight: 600 }}
                 >
                   TorvionX
-                </button>
+                </a>
               </div>
             </nav>
           </motion.aside>

@@ -77,13 +77,13 @@ export function Navbar() {
 
           {/* Right side actions */}
           <div className="flex items-center gap-2 sm:gap-3">
-            <button
-              type="button"
+            <a
+              href="/Product"
               className="inline-flex h-10 items-center rounded-full bg-brand px-5 text-sm text-white shadow-lg shadow-brand/25 transition-all duration-300 hover:-translate-y-0.5 hover:scale-[1.04] hover:bg-[#E85F14] hover:shadow-xl hover:shadow-brand/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/60"
               style={{ fontFamily: "var(--font-sans)", fontWeight: 600 }}
             >
               TorvionX
-            </button>
+            </a>
             <button
               type="button"
               onClick={() => setMobileOpen(true)}
